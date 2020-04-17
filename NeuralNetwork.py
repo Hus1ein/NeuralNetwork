@@ -58,7 +58,7 @@ class NeuralNetwork:
                 # For hidden layout
                 self.hidden_layout[0].calculate_neuron_value(x)
                 self.hidden_layout[1].calculate_neuron_value(x)
-                self.hidden_layout[1].calculate_neuron_value(x)
+                self.hidden_layout[2].calculate_neuron_value(x)
 
                 # For output layout
                 self.output_layout[0].calculate_neuron_value(np.array([
